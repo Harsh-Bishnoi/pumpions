@@ -1,4 +1,7 @@
 :root {
+    /* font family */
+    --font-family-primary: "Press Start 2P", system-ui;
+    /* font size */
     --fs-sm: 6.53px;
     --fs-md: 12px;
     --fs-lg: 14px;
@@ -12,6 +15,12 @@
     --light-blue-grey: #28424F;
 }
 
+/* font family */
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+/* font size */
 .fs-sm {
     font-size: var(--fs-sm) !important;
 }

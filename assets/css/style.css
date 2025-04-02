@@ -1,0 +1,125 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.max-w-1140 {
+    max-width: 1164px !important;
+}
+
+/* line height */
+.lh-229 {
+    line-height: 229%;
+}
+
+/* header */
+.bg-img {
+    background-image: url(../Images/Png/header-img.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 853px;
+    background-position: center;
+}
+
+.mb-26 {
+    margin-bottom: 26px;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.max-w-899 {
+    max-width: 899px;
+}
+
+.max-w-254 {
+    max-width: 254px;
+}
+
+.btn-box {
+    max-width: max-content;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.left-22 {
+    left: 22px;
+}
+
+.right-34 {
+    right: 34px;
+}
+
+.top-153 {
+    top: 153px;
+}
+
+.top-140 {
+    top: 140px;
+}
+
+.pt-71 {
+    padding-top: 71px;
+}
+
+.get-btn {
+    padding: 16px 39px;
+    transition: all 200ms linear;
+}
+
+.get-btn:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:991.98px) {
+    .max-w-899 {
+        max-width: 612px;
+    }
+
+    .mb-26 {
+        margin-bottom: 18px;
+    }
+
+    .mb-75 {
+        margin-bottom: 58px;
+    }
+
+    .bg-img {
+        min-height: 643px;
+    }
+}
+
+@media (max-width:575.98px) {
+    .max-w-899 {
+        max-width: 282px;
+    }
+
+    .max-w-254 {
+        max-width: 188px;
+    }
+
+    .get-btn {
+        padding: 12px 28px;
+    }
+
+    .pt-71 {
+        padding-top: 40px;
+    }
+
+    .mb-26 {
+        margin-bottom: 0;
+    }
+
+    .mb-75 {
+        margin-bottom: 34px;
+    }
+
+    .bg-img {
+        min-height: 421px;
+    }
+
+    .max-w-255 {
+        max-width: 255px;
+    }
+}
