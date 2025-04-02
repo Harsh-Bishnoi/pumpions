@@ -72,6 +72,30 @@
     transform: scale(1.1);
 }
 
+/* meet section */
+.pt-140 {
+    padding-top: 140px;
+}
+
+.meet-bg-img {
+    background-image: url(../Images/Png/meet-section-box-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 56px 42px;
+}
+
+.max-w-1056 {
+    max-width: 1056px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
 @media (max-width:991.98px) {
     .max-w-899 {
         max-width: 612px;
@@ -87,6 +111,10 @@
 
     .bg-img {
         min-height: 643px;
+    }
+
+    .meet-bg-img {
+        padding: 36px 16px 28px 16px;
     }
 }
 
@@ -121,5 +149,9 @@
 
     .max-w-255 {
         max-width: 255px;
+    }
+
+    .meet-bg-img {
+        padding: 26px 18px 23px 19px;
     }
 }
