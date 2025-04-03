@@ -191,7 +191,7 @@
     margin-left: 26px;
 }
 
-/*  */
+/* sunset club */
 .top-9 {
     top: -9%;
 }
@@ -245,6 +245,23 @@
     color: white !important;
 }
 
+/* pumpmap */
+.max-w-699 {
+    max-width: 699px;
+}
+
+.max-w-407 {
+    max-width: 407px;
+}
+
+.pt-102 {
+    padding-top: 102px;
+}
+
+.pb-183 {
+    padding-bottom: 183px;
+}
+
 @media (max-width:991.98px) {
     .max-w-899 {
         max-width: 612px;
@@ -268,6 +285,14 @@
 
     .max-w-892 {
         max-width: 770px;
+    }
+
+    .mb-55 {
+        margin-bottom: 55px !important;
+    }
+
+    .pb-183 {
+        padding-bottom: 130px;
     }
 }
 
@@ -310,5 +335,13 @@
 
     .meet-bg-img {
         padding: 26px 18px 23px 19px;
+    }
+
+    .pb-183 {
+        padding-bottom: 66px;
+    }
+
+    .pt-102 {
+        padding-top: 50px;
     }
 }
