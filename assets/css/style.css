@@ -249,6 +249,42 @@
     color: var(--color-white) !important;
 }
 
+.slider-1 .slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.slider-1 .slick-dots {
+    position: absolute;
+    bottom: -30px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slider-1 .slick-dots li button:before {
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 100% !important;
+    color: #536771 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slider-1 .slick-dots li.slick-active button:before {
+    color: var(--color-white) !important;
+    opacity: 100% !important;
+}
+
 /* pumpmap */
 .max-w-699 {
     max-width: 699px;
@@ -266,7 +302,7 @@
     padding-bottom: 183px;
 }
 
-/*  */
+/* OG PUMPIONS */
 .opacity-70 {
     opacity: 70%;
 }
@@ -295,11 +331,11 @@
     padding-bottom: 61px !important;
 }
 
-.slick-dotted.slick-slider {
+.slider-2 .slick-dotted.slick-slider {
     margin-bottom: 0 !important;
 }
 
-.slick-dots {
+.slider-2 .slick-dots {
     position: absolute;
     bottom: 10px !important;
     display: block;
@@ -310,7 +346,7 @@
     text-align: center;
 }
 
-.slick-dots li button:before {
+.slider-2 .slick-dots li button:before {
     font-size: 10px !important;
     line-height: 20px;
     position: absolute;
@@ -326,7 +362,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-dots li.slick-active button:before {
+.slider-2 .slick-dots li.slick-active button:before {
     color: var(--color-white) !important;
     opacity: 100% !important;
 }

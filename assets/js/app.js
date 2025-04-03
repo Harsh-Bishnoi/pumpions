@@ -4,33 +4,23 @@ const navbarbtn = () => {
 };
 
 
-$('.team-slider').slick({
-    slidesToShow: 4,
+// slider 1
+$('.slider').slick({
+    slidesToShow: 1.2,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
     autoplaySpeed: 800,
-    dots: false,
-    responsive: [
-        {
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 4
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-                dots: true,
-            }
-        },
-        {
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1,
-                dots: true,
-            }
-        }
-    ]
+    dots: true,
+});
+
+
+// slider 2
+$('.team-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 800,
+    dots: true,
 });
