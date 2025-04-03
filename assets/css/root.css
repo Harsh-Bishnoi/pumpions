@@ -11,6 +11,7 @@
     --fs-4xl: 32px;
     --fs-5xl: 36px;
     /* color */
+    --color-white:#FFFFFF;
     --blue-grey: #203948;
     --light-blue-grey: #28424F;
 }
@@ -73,5 +74,6 @@
         --fs-xl: 12px;
         --fs-2xl: 14px;
         --fs-5xl: 20px;
+        --fs-4xl: 24px;
     }
 }

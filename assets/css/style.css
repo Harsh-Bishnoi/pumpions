@@ -14,6 +14,10 @@
     line-height: 204%;
 }
 
+.lh-202 {
+    line-height: 202%;
+}
+
 /* header */
 .bg-img {
     background-image: url(../Images/Png/header-img.png) !important;
@@ -242,7 +246,7 @@
 }
 
 .member-card:hover .card-text {
-    color: white !important;
+    color: var(--color-white) !important;
 }
 
 /* pumpmap */
@@ -262,9 +266,87 @@
     padding-bottom: 183px;
 }
 
+/*  */
+.opacity-70 {
+    opacity: 70%;
+}
+
+.mb-31 {
+    margin-bottom: 31px;
+}
+
+.mb-79 {
+    margin-bottom: 79px;
+}
+
+.gap-11 {
+    gap: 11px;
+}
+
+.slider-svg {
+    transition: all 200ms linear;
+}
+
+.slider-svg:hover {
+    transform: scale(1.1);
+}
+
+.pb-61 {
+    padding-bottom: 61px !important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0 !important;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li button:before {
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: 100% !important;
+    color: #536771 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--color-white) !important;
+    opacity: 100% !important;
+}
+
+.we-btn {
+    padding: 16px 23px;
+    transition: all 200ms linear;
+}
+
+.we-btn:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width:991.98px) {
     .max-w-899 {
         max-width: 612px;
+    }
+
+    .mb-45 {
+        margin-bottom: 45px;
     }
 
     .mb-26 {
@@ -294,6 +376,10 @@
     .pb-183 {
         padding-bottom: 130px;
     }
+
+    .mb-79 {
+        margin-bottom: 75px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -302,7 +388,7 @@
     }
 
     .max-w-254 {
-        max-width: 188px;
+        max-width: 190px;
     }
 
     .get-btn {
@@ -343,5 +429,13 @@
 
     .pt-102 {
         padding-top: 50px;
+    }
+
+    .mb-79 {
+        margin-bottom: 30px;
+    }
+
+    .we-btn {
+        padding: 11px 17px;
     }
 }
