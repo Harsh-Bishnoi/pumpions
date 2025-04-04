@@ -31,6 +31,14 @@
     gap: 32px;
 }
 
+.nav-icons {
+    transition: all 220ms linear;
+}
+
+.nav-icons:hover {
+    transform: scale(1.1) !important;
+}
+
 .mr-18 {
     margin-right: 18px;
 }
@@ -326,6 +334,19 @@
 
 .slider-1 .slick-dotted.slick-slider {
     margin-bottom: 0 !important;
+}
+
+.slider-1 .slick-track {
+    display: flex !important;
+}
+
+.slider-1 .slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slider-1 .slick-slide>div {
+    display: flex;
 }
 
 .slider-1 .slick-dots {
@@ -640,6 +661,10 @@
         max-width: 282px;
     }
 
+    .pt-140 {
+        padding-top: 40px;
+    }
+
     .left-22 {
         left: -120px;
     }
@@ -677,7 +702,7 @@
     }
 
     .bg-img {
-        min-height: 421px;
+        min-height: 521px;
     }
 
     .max-w-892 {
