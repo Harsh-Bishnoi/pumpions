@@ -574,6 +574,14 @@
     padding-bottom: 77px;
 }
 
+.footer-link {
+    transition: all 200ms linear;
+}
+
+.footer-link:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width:1360.98px) {
     .top-9 {
         top: -8%;
