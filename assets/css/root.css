@@ -1,7 +1,7 @@
 :root {
-    /* font family */
+    /***** font family *****/
     --font-family-primary: "Press Start 2P", system-ui;
-    /* font size */
+    /***** font size *****/
     --fs-sm: 6.53px;
     --fs-md: 12px;
     --fs-lg: 14px;
@@ -10,18 +10,19 @@
     --fs-3xl: 24px;
     --fs-4xl: 32px;
     --fs-5xl: 36px;
-    /* color */
+    /***** color *****/
     --color-white: #FFFFFF;
     --blue-grey: #203948;
     --light-blue-grey: #28424F;
+    --grey: #536771;
 }
 
-/* font family */
+/***** font family *****/
 .font-family-primary {
     font-family: var(--font-family-primary);
 }
 
-/* font size */
+/***** font size *****/
 .fs-sm {
     font-size: var(--fs-sm) !important;
 }
@@ -54,7 +55,7 @@
     font-size: var(--fs-5xl) !important;
 }
 
-/* ------------------------------------------- */
+/***** colors *****/
 .bg-blue-grey {
     background-color: var(--blue-grey) !important;
 }
@@ -63,6 +64,7 @@
     background-color: var(--light-blue-grey) !important;
 }
 
+/***** meadia screen *****/
 @media (max-width:992.98px) {
     :root {
         --fs-5xl: 24px;

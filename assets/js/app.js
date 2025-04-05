@@ -1,3 +1,4 @@
+// navbar
 const navbarbtn = () => {
     document.getElementById("nav-name").classList.toggle("show-navbar")
     document.body.classList.toggle("overflow-hidden")
@@ -9,7 +10,7 @@ $('.slider').slick({
     slidesToShow: 1.2,
     slidesToScroll: 1,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 800,
     dots: true,
 });

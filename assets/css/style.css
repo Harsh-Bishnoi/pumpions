@@ -5,7 +5,7 @@
     max-width: 1164px !important;
 }
 
-/* line height */
+/***** line height *****/
 .lh-229 {
     line-height: 229%;
 }
@@ -22,7 +22,7 @@
     line-height: 202%;
 }
 
-/* navbar */
+/***** navbar *****/
 .z-5 {
     z-index: 5;
 }
@@ -101,7 +101,7 @@
     padding-top: 30px;
 }
 
-/* back to top */
+/***** back to top *****/
 #backToTop {
     position: fixed;
     bottom: 20px;
@@ -120,7 +120,7 @@
     }
 }
 
-/* header */
+/***** header *****/
 .bg-img {
     background-image: url(../Images/Png/header-img.png) !important;
     background-repeat: no-repeat;
@@ -182,7 +182,7 @@
     transform: scale(1.1);
 }
 
-/* meet section */
+/***** meet section *****/
 .pt-140 {
     padding-top: 140px;
 }
@@ -206,7 +206,7 @@
     margin-top: 43px;
 }
 
-/* peak section */
+/***** peak section *****/
 .bg-img-2 {
     background-image: url(../Images/Png/peak-bg-img.png);
     background-repeat: no-repeat;
@@ -297,7 +297,7 @@
     margin-left: 26px;
 }
 
-/* sunset club */
+/***** sunset club *****/
 .top-9 {
     top: -9%;
 }
@@ -390,7 +390,7 @@
     content: '•';
     text-align: center;
     opacity: 100% !important;
-    color: #536771 !important;
+    color: var(--grey) !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -400,7 +400,7 @@
     opacity: 100% !important;
 }
 
-/* pumpmap */
+/***** pumpmap *****/
 .max-w-699 {
     max-width: 699px;
 }
@@ -417,7 +417,7 @@
     padding-bottom: 183px;
 }
 
-/* OG PUMPIONS */
+/***** OG PUMPIONS *****/
 .opacity-70 {
     opacity: 70%;
 }
@@ -472,7 +472,7 @@
     content: '•';
     text-align: center;
     opacity: 100% !important;
-    color: #536771 !important;
+    color: var(--grey) !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -491,7 +491,7 @@
     transform: scale(1.1);
 }
 
-/* faq */
+/***** faq *****/
 .faq .accordion {
     --bs-accordion-active-color: none !important;
     --bs-accordion-active-bg: none !important;
@@ -551,7 +551,7 @@
     padding-top: 150px;
 }
 
-/* footer */
+/***** footer *****/
 .footer-bg-img {
     background-image: url(../Images/Png/footer-bg-img.png);
     background-repeat: no-repeat;
@@ -581,6 +581,8 @@
 .footer-link:hover {
     transform: scale(1.1);
 }
+
+/***** media screen *****/
 
 @media (max-width:1360.98px) {
     .top-9 {
@@ -825,7 +827,7 @@
 }
 
 @media (max-width:374.98px) {
-    .fs-16{
+    .fs-16 {
         font-size: 7px !important;
     }
 }
