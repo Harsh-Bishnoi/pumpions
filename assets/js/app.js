@@ -7,7 +7,7 @@ const navbarbtn = () => {
 
 // slider 1
 $('.slider').slick({
-    slidesToShow: 1.2,
+    slidesToShow: 1.1,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
@@ -18,7 +18,7 @@ $('.slider').slick({
 
 // slider 2
 $('.team-slider').slick({
-    slidesToShow: 1,
+    slidesToShow: 1.1,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,

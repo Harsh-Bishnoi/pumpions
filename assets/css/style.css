@@ -238,7 +238,7 @@
     animation: slideRight 5s linear infinite;
 }
 
-.mx-w-175 {
+.max-w-175 {
     max-width: 175px;
 }
 
@@ -582,6 +582,10 @@
     transform: scale(1.1);
 }
 
+.fs-14 {
+    font-size: 14px;
+}
+
 /***** media screen *****/
 
 @media (max-width:1360.98px) {
@@ -716,6 +720,18 @@
         top: -2.9%;
     }
 
+    .member-card {
+        max-width: 278px !important;
+    }
+
+    .fs-14 {
+        font-size: 8px;
+    }
+
+    .max-w-135 {
+        max-width: 100%;
+    }
+
     .max-w-899 {
         max-width: 282px;
     }
@@ -823,6 +839,10 @@
     .px-48 {
         padding-left: 10px !important;
         padding-right: 26px !important;
+    }
+
+    .max-w-175 {
+        max-width: 107px;
     }
 }
 
