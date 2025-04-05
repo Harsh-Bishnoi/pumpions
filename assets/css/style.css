@@ -823,3 +823,9 @@
         padding-right: 26px !important;
     }
 }
+
+@media (max-width:374.98px) {
+    .fs-16{
+        font-size: 7px !important;
+    }
+}
